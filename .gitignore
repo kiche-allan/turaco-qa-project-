@@ -1,0 +1,85 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.classpath
+.project
+.settings/
+*.iml
+*.iws
+*.ipr
+.gradle/
+*.class
+
+# Test Reports & Coverage
+test-results/
+coverage/
+*.lcov
+htmlcov/
+.nyc_output/
+
+# Node modules (for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+secrets.properties
+application-local.properties
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+
+# Docker
+docker-compose.override.yml
+
+# OS Files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Backend build
+backend/target/
+
+# Automation test results
+automation/target/
+automation/test-output/
+
+# Frontend build
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# Scripts output
+scripts/*.log
